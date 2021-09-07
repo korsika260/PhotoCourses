@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Описание"/>
+    <meta name="author" content="Ольга Младинова"/>
+    <title>Курсы по фотографиям</title>
+    <link href="styles/style.css" rel="stylesheet"/>
+</head>
+<body class="page">
+    <header class="header">
+        <img class="header__logo rotation" src="images/logo.svg" alt="Логотип">
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item">Композиция</li>
+                <li class="menu__item">Камера</li>
+                <li class="menu__item">Поиск заказов</li>
+            </ul>
+        </nav>
+        <button class="button__menu">
+            <img src="images/menu.svg" alt="Выпадающее меню">
+        </button>
+    </header>
+    <nav class="menu__tablet">
+        <div class="menu__mobile">
+            <img class="header__logo-mobile" src="images/logo.svg" alt="Логотип">
+            <button class="button__close">
+                <img src="images/close.svg" alt="Закрыть">
+            </button>
+        </div>
+        <ul class="menu__list">
+            <li class="menu__item">Композиция</li>
+            <li class="menu__item">Камера</li>
+            <li class="menu__item">Поиск заказов</li>
+        </ul>
+        <button class="button__close mobile">
+            <img src="images/close.svg" alt="Закрыть">
+        </button>
+    </nav>
+    <main class="main">
+        <section class="course">
+            <div class="course__column">
+                <h1 class="course__title">Курс по фотографии</h1>
+                <img class="course__image-tablet" src="images/oleksii-yasinskyi.jpg" alt="Весенний лес">
+                <p class="course__subtitle">Фотография в природных условиях, уроки по композиции и по пользованию
+                    камерой.</p>
+                <button type="submit" class="button__submit">Подробнее</button>
+            </div>
+            <img class="course__image" src="images/oleksii-yasinskyi.jpg" alt="Весенний лес">
+        </section>
+        <section class="composition">
+            <div class="composition__row">
+                <div class="composition__column">
+                    <p class="composition__paragraph-text">Композиция</p>
+                    <h2 class="composition__title">Изучите композицию</h2>
+                    <img class="composition__image-tablet" src="images/launde-morel.jpg" alt="Лесная дорога">
+                    <div class="composition__subtitle">
+                        <p class="composition__paragraph">Вы изучите гармоничное размещение всех элементов изображения на
+                            <span class="strong">снимке</span>.</p>
+                        <p class="composition__paragraph">Изучите композицию интуитивную
+                            и какие-то определённые законы.</p>
+                    </div>
+                    <button class="button__submit composition__place">Записаться!</button>
+                </div>
+                <img class="composition__image" src="images/launde-morel.jpg" alt="Лесная дорога">
+            </div>
+            <ul class="composition__list-container">
+                <li class="composition__item-rule">Правило третей, при котором нужно распологать объекты на пересечениях.
+                </li>
+                <li class="composition__item-rule">Простота: убирай всё лишнее и кадрируй!</li>
+                <li class="composition__item-rule">Равновесие: уравновесь пятна объекта и фона.</li>
+                <li class="composition__item-rule">3D глубина кадра: расположи объект позади и перед другими предметами.
+                </li>
+            </ul>
+        </section>
+        <section class="camera">
+            <div class="camera__row">
+                <div class="camera__column">
+                    <p class="camera__paragraph-text">камера</p>
+                    <h2 class="camera__title">Настройка Съемка Обработка</h2>
+                    <img class="camera__image-tablet" src="images/caleb-moreno.jpg" alt="Густой лес">
+                    <p class="camera__paragraph">отзывы про часть о камерах:</p>
+                </div>
+                <img class="camera__image" src="images/caleb-moreno.jpg" alt="Густой лес">
+            </div>
+            <div class="camera__container">
+                <div class="camera__reviews">
+                    <p class="camera__reviews-paragraph">на этом курсе я научился пользоватся камерой, как настоящий
+                        профессионал!</p>
+                    <p class="camera__reviews-name">Питер, водитель.</p>
+                    <p class="camera__reviews-profile">@piter123</p>
+                </div>
+                <div class="camera__reviews">
+                    <p class="camera__reviews-paragraph">супер крутой курс! на части про фотики я стал разбираться в
+                        предназначении
+                        кнопок</p>
+                    <p class="camera__reviews-name">Джон, спортсмен.</p>
+                    <p class="camera__reviews-profile">@john_sport</p>
+                </div>
+            </div>
+        </section>
+        <section class="search">
+            <div class="search__column">
+                <p class="search__paragraph-text">поиск заказов</p>
+                <h2 class="search__title">Научим находить заказы! </h2>
+                <img class="search__image" src="images/nikolay-maslov.jpg" alt="Ствол дерева">
+            </div>
+            <div class="search__column">
+                <p class="search__paragraph">Мы научим вас искать заказы на всяких фриланс биржах, а когда вы сделаете
+                    крутое портфолио, мы поможем найти постоянную работу.</p>
+                <button class="button__submit search__place">Записаться!</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__row">
+            <img class="footer__arrow" src="images/arrow.svg" alt="Стрелка">
+            <h2 class="footer__title">Записаться! Сейчас!</h2>
+        </div>
+        <form name="form" class="footer__form">
+            <input type="email" class="footer__form-item" name="name" placeholder="Ваша почта" required value="">
+            <button type="submit" class="footer__button">Записаться!</button>
+        </form>
+        <p class="footer__copyright">2021 Photo-lessons.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.composition__image-tablet {
+  @include clear;
+  width: 642px;
+  height: 685px;
+  margin-right: 50px;
+  display: none;
+}
+
+@media screen and #{$tablet} {
+  .composition__image-tablet {
+    display: flex;
+    flex-direction: row;
+    width: 688px;
+    height: 685px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .composition__image-tablet {
+    width: 280px;
+    height: 278px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

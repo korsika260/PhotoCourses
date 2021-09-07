@@ -1,0 +1,29 @@
+.composition__title {
+  margin: 50px 0 0 50px;
+  padding: 0;
+  max-width: 403px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: #000000;
+}
+
+
+@media screen and #{$tablet} {
+  .composition__title {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .composition__title {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    line-height: 38px;
+  }
+}

@@ -1,0 +1,24 @@
+.course__image-tablet {
+  display: none;
+}
+
+@media screen and #{$tablet} {
+  .course__image-tablet {
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 688px;
+    height: 594px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .course__image-tablet {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 280px;
+    height: 242px;
+  }
+}

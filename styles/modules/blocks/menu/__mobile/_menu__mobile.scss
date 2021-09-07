@@ -1,0 +1,12 @@
+.menu__mobile {
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+@media screen and #{$mobile} {
+  .menu__mobile{
+    display: flex;
+  }
+}

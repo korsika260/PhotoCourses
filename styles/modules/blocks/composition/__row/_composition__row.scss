@@ -1,0 +1,11 @@
+.composition__row {
+  @include clear;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and #{$tablet} {
+  .composition__row {
+    flex-direction: column;
+  }
+}

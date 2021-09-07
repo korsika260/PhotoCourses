@@ -1,0 +1,25 @@
+.composition__list-container {
+  @include clear;
+  margin-left: 54px;
+  margin-right: 54px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and #{$tablet} {
+  .composition__list-container {
+    padding-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    flex-direction: column;
+  }
+}
+
+@media screen and #{$mobile} {
+  .composition__list-container {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 22px;
+  }
+}

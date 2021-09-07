@@ -1,0 +1,28 @@
+.camera__title {
+  @include clear;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 122px;
+  line-height: 122px;
+  color: #FFFFFF;
+}
+
+@media screen and #{$tablet} {
+  .camera__title {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .camera__title {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 59px;
+    font-size: 48px;
+    line-height: 56px;
+  }
+}

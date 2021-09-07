@@ -1,0 +1,28 @@
+.search__paragraph {
+  margin: 336px 0 0;
+  padding: 0 50px 0 312px;
+  max-width: 380px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+
+@media screen and #{$tablet} {
+  .search__paragraph {
+    margin-top: 60px;
+    padding-left: 44px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .search__paragraph {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 280px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

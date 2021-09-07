@@ -1,0 +1,11 @@
+.camera__row {
+  @include clear;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and #{$tablet} {
+  .camera__row {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,33 @@
+.footer__title {
+  @include clear;
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 120px;
+  color: #FFFFFF;
+  max-width: 685px;
+}
+
+@media screen and #{$tablet} {
+  .footer__title {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 100px;
+    line-height: 105px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .footer__title {
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #FFFFFF;
+    font-size: 48px;
+    line-height: 50px;
+  }
+}

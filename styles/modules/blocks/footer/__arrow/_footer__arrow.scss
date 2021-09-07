@@ -1,0 +1,13 @@
+.footer__arrow {
+  @include clear;
+  margin-top: 60px;
+  margin-left: 50px;
+  width: 129px;
+  height: 95px;
+}
+
+@media screen and #{$tablet} {
+  .footer__arrow {
+    display: none;
+  }
+}

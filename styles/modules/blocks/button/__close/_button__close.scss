@@ -1,0 +1,28 @@
+.button__close {
+  @include clear;
+  display: none;
+  background-color: transparent;
+  border: none;
+  margin-top: 23px;
+  margin-right: 34px;
+  margin-bottom: 23px;
+  cursor: pointer;
+}
+
+@media screen and #{$tablet} {
+  .button__close {
+    display: flex;
+  }
+}
+
+@media screen and #{$mobile} {
+  .button__close {
+    @include clear;
+    margin-right: 14px;
+    margin-top: 16px;
+
+    &.mobile {
+      display: none;
+    }
+  }
+}

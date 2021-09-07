@@ -1,0 +1,29 @@
+.camera__paragraph-text {
+  margin: 0;
+  padding: 0 0 0 54px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media screen and #{$tablet} {
+  .camera__paragraph-text {
+    padding-left: 46px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .camera__paragraph-text {
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-left: 2px;
+    border-top: 1px solid #FFFFFF;
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

@@ -1,0 +1,28 @@
+.footer__button {
+  width: 205px;
+  height: 50px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0 8px 8px 0;
+  border-left: none;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.375px;
+  color: #000000;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+@media screen and #{$mobile} {
+  .footer__button {
+    width: 107px;
+    height: 50px;
+  }
+}

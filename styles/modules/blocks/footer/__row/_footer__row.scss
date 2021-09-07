@@ -1,0 +1,5 @@
+.footer__row {
+  @include clear;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,18 @@
+.composition__subtitle {
+  margin: 100px 0 0;
+  padding: 0 0 0 54px;
+}
+
+@media screen and #{$tablet} {
+  .composition__subtitle {
+    margin-top: 60px;
+    padding-left: 44px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .composition__subtitle {
+    padding-left: 22px;
+    padding-right: 20px;
+  }
+}

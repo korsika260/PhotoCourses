@@ -1,0 +1,29 @@
+.search__title {
+  @include clear;
+  margin-left: 50px;
+  margin-top: 50px;
+  max-width: 549px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 64px;
+  color: #000000;
+}
+
+@media screen and #{$tablet} {
+  .search__title {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .search__title {
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+    line-height: 38px;
+  }
+}

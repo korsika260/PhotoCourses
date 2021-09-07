@@ -1,0 +1,28 @@
+.footer__copyright {
+  margin: 50px 0 0;
+  padding: 0 0 50px 50px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+@media screen and #{$tablet} {
+  .footer__copyright {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .footer__copyright {
+    padding-left: 20px;
+    padding-right: 145px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    line-height: 24px;
+  }
+}
