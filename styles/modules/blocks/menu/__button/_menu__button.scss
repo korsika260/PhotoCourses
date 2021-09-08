@@ -1,4 +1,4 @@
-.button__menu {
+.menu__button {
   @include clear;
   display: none;
   width: 32px;
@@ -12,13 +12,13 @@
 }
 
 @media screen and #{$tablet} {
-  .button__menu {
+  .menu__button {
     display: flex;
   }
 }
 
 @media screen and #{$mobile} {
-  .button__menu {
+  .menu__button {
     display: flex;
     margin-bottom: 24px;
     margin-top: 24px;
