@@ -1,4 +1,4 @@
-.button__close {
+.menu__close {
   @include clear;
   display: none;
   background-color: transparent;
@@ -10,13 +10,13 @@
 }
 
 @media screen and #{$tablet} {
-  .button__close {
+  .menu__close {
     display: flex;
   }
 }
 
 @media screen and #{$mobile} {
-  .button__close {
+  .menu__close {
     @include clear;
     margin-right: 14px;
     margin-top: 16px;
