@@ -1,4 +1,4 @@
-.menu__mobile {
+.menu-tablet__mobile_ {
   display: none;
   flex-direction: row;
   justify-content: space-between;
@@ -6,7 +6,7 @@
 }
 
 @media screen and #{$mobile} {
-  .menu__mobile{
+  .menu-tablet__mobile_{
     display: flex;
   }
 }

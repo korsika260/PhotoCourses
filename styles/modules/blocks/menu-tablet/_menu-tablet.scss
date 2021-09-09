@@ -1,9 +1,9 @@
-.menu__tablet {
+.menu-tablet {
   display: none;
 }
 
 @media screen and #{$tablet} {
-  .menu__tablet {
+  .menu-tablet {
     display: none;
     position: absolute;
     top: 0;
@@ -21,7 +21,7 @@
 }
 
 @media screen and #{$mobile} {
-  .menu__tablet {
+  .menu-tablet {
     height: 198px;
     flex-direction: column;
     justify-content: flex-start;

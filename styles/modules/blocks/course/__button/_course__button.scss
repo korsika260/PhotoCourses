@@ -1,4 +1,4 @@
-.button__submit {
+.course__button {
   @include clear;
   margin-top: 170px;
   margin-left: 50px;
@@ -25,14 +25,14 @@
 }
 
 @media screen and #{$tablet} {
-  .button__submit {
+  .course__button {
     margin-top: 60px;
     margin-left: 40px;
   }
 }
 
 @media screen and #{$mobile} {
-  .button__submit {
+  .course__button {
     margin-top: 30px;
     margin-left: 20px;
     margin-right: 131px;

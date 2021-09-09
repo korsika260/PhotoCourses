@@ -1,15 +1,17 @@
 /* Подключение popup Редактирование профиля */
-const buttonMenu = document.querySelector('.button__menu');
-const buttonsClose = document.querySelectorAll('.button__close');
-const menuTablet = document.querySelector('.menu__tablet');
-const orderButtons = document.querySelectorAll('.button__submit');
+const menuButton = document.querySelector('.menu__button');
+const menuClose = document.querySelectorAll('.menu__button-close');
+const menuTablet = document.querySelector('.menu-tablet');
+const orderButtons = document.querySelectorAll('.course__button');
 const buttonFooter = document.querySelector('.footer__button');
+const input = document.querySelector('.footer__form-item');
+const footerForm = document.querySelector('.footer__form');
 
-buttonMenu.addEventListener('click', () =>{
+menuButton.addEventListener('click', () =>{
     menuTablet.classList.toggle('active');
 });
 
-buttonsClose.forEach(item => {
+menuClose.forEach(item => {
     item.addEventListener('click', () =>{
         menuTablet.classList.toggle('active');
     });
@@ -21,6 +23,9 @@ orderButtons.forEach(item =>{
     });
 });
 
-buttonFooter.addEventListener('click',()=>{
-    buttonFooter.innerHTML = 'Спасибо!';
-});
+footerForm.addEventListener('submit',(event) => {
+  event.preventDefault();
+  input.value = '';
+  buttonFooter.innerHTML = 'Спасибо!';
+})
+

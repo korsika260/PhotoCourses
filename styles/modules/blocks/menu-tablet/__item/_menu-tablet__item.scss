@@ -1,0 +1,33 @@
+.menu-tablet__item {
+  @include clear;
+  margin-right: 40px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FBFBFB;
+  height: 24px;
+}
+
+
+.menu-tablet__item:last-child {
+  margin-right: 50px;
+}
+
+.menu-tablet__item:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media screen and #{$mobile} {
+  .menu-tablet__item {
+    padding-bottom: 12px;
+    margin-right: 0;
+  }
+  .menu-tablet__item:last-child {
+    padding-bottom: 26px;
+    margin-right: 0;
+  }
+}
