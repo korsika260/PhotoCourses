@@ -1,9 +1,5 @@
 @import "../vendor/normalize.css";
 @import "../vendor/fonts.css";
-.strong {
-  font-weight: bold;
-}
-
 .page {
   max-width: 1440px;
   margin: 0 auto;
@@ -858,6 +854,10 @@
     padding-bottom: 20px;
   }
 }
+.composition__strong {
+  font-weight: bold;
+}
+
 .camera {
   margin: 0;
   padding: 50px 0;

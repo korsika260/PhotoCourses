@@ -4,8 +4,6 @@
 @import "modules/variables";
 @import "modules/mixins";
 
-@import "modules/blocks/strong/strong";
-
 @import "modules/blocks/page/page";
 @import "modules/blocks/header/header";
 @import "modules/blocks/header/__logo/header__logo";
@@ -46,6 +44,7 @@
 @import "modules/blocks/composition/__button/composition__button";
 @import "modules/blocks/composition/__list-container/composition__list-container";
 @import "modules/blocks/composition/__item-rule/composition__item-rule";
+@import "modules/blocks/composition/__strong/composition__strong";
 @import "modules/blocks/camera/camera";
 @import "modules/blocks/camera/__row/camera__row";
 @import "modules/blocks/camera/__column/camera__column";
