@@ -1,0 +1,5 @@
+.search__column {
+  @include clear;
+  display: flex;
+  flex-direction: column;
+}

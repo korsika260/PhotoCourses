@@ -1,0 +1,18 @@
+.camera__reviews-profile {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $colorTextInvert;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+@media screen and #{$mobile} {
+  .camera__reviews-profile {
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 6px;
+  }
+}

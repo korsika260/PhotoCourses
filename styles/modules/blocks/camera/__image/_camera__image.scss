@@ -1,0 +1,12 @@
+.camera__image {
+  width: 642px;
+  height: 832px;
+  padding-right: 50px;
+  padding-left: 81px;
+}
+
+@media screen and #{$tablet} {
+  .camera__image {
+    display: none;
+  }
+}

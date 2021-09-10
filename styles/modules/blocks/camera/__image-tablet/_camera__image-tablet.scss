@@ -1,0 +1,23 @@
+.camera__image-tablet {
+  display: none;
+}
+
+@media screen and #{$tablet} {
+  .camera__image-tablet {
+    display: flex;
+    width: 688px;
+    height: 656px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .camera__image-tablet {
+    width: 280px;
+    height: 268px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

@@ -1,0 +1,13 @@
+.composition {
+  @include clear;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: $bgComposition;
+}
+
+@media screen and #{$tablet} {
+  .composition {
+    padding-top: 40px;
+    padding-bottom: 0;
+  }
+}

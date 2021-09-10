@@ -1,0 +1,32 @@
+.header__logo {
+  @include clear;
+  margin-top: 22px;
+  margin-bottom: 22px;
+  margin-left: 50px;
+  height: 40px;
+  width: 40px;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and #{$tablet} {
+  .header__logo {
+    height: 36px;
+    width: 36px;
+    margin-left: 40px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .header__logo {
+    height: 30px;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

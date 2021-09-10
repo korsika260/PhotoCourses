@@ -1,0 +1,29 @@
+.menu-tablet {
+  display: none;
+}
+
+@media screen and #{$tablet} {
+  .menu-tablet {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: $bgBlock;
+    width: 100vw;
+    height: 84px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    &.active {
+      display: flex;
+    }
+  }
+}
+
+@media screen and #{$mobile} {
+  .menu-tablet {
+    height: 198px;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

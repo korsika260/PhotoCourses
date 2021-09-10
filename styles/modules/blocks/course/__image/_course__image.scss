@@ -1,0 +1,14 @@
+.course__image {
+  @include clear;
+  width: 642px;
+  height: 555px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and #{$tablet} {
+  .course__image {
+    display: none;
+  }
+}

@@ -1,0 +1,25 @@
+.course__title {
+  padding: 0;
+  margin: 0 0 0 48px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 110px;
+  color: $colorText;
+}
+
+@media screen and #{$tablet} {
+  .course__title {
+    margin-left: 38px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .course__title {
+    margin-left: 18px;
+    margin-right: 20px;
+    font-size: 47px;
+    line-height: 56px;
+  }
+}

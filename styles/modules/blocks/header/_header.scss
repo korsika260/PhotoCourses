@@ -1,0 +1,13 @@
+.header {
+  @include clear;
+  //max-width: 1440px;
+  height: 84px;
+  background-color: $bgBlock;
+  width: 100vw;
+}
+
+@media screen and #{$mobile} {
+  .header {
+    height: 70px;
+  }
+}

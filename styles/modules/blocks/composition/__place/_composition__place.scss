@@ -1,0 +1,20 @@
+.composition__place {
+  margin-right: 50px;
+  margin-top: 198px;
+}
+
+@media screen and #{$tablet} {
+  .composition__place {
+    margin-left: 40px;
+    margin-right: 500px;
+    margin-top: 60px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .composition__place {
+    margin-left: 20px;
+    margin-right: 131px;
+    margin-top: 30px;
+  }
+}

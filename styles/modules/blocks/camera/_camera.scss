@@ -1,0 +1,18 @@
+.camera {
+  margin: 0;
+  padding: 50px 0;
+  background: $bgCamera;
+}
+
+@media screen and #{$tablet} {
+  .camera {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .camera {
+    padding-bottom: 20px;
+  }
+}

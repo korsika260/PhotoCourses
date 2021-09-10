@@ -1,0 +1,27 @@
+.composition__paragraph {
+  @include clear;
+  max-width: 400px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: $colorText;
+}
+
+.composition__paragraph:last-child {
+  margin-top: 20px;
+  max-width: 300px;
+}
+
+@media screen and #{$mobile} {
+  .composition__paragraph {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 300px;
+  }
+  .composition__paragraph:last-child {
+    margin-top: 36px;
+    max-width: 250px;
+  }
+}

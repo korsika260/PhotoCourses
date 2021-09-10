@@ -1,0 +1,44 @@
+.course__button {
+  @include clear;
+  margin-top: 170px;
+  margin-left: 50px;
+  margin-right: 470px;
+  background: $bgDefault;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 9999px;
+  max-width: 228px;
+  height: 49px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $colorText;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    font-weight: bold;
+  }
+}
+
+@media screen and #{$tablet} {
+  .course__button {
+    margin-top: 60px;
+    margin-left: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .course__button {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 131px;
+    margin-bottom: 6px;
+    max-width: 169px;
+    height: 40px;
+    font-size: 14px;
+  }
+}

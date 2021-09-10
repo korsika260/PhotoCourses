@@ -1,0 +1,26 @@
+.search__image {
+  @include clear;
+  margin-top: 106px;
+  margin-left: 50px;
+  width: 648px;
+  height: 333px;
+}
+
+@media screen and #{$tablet} {
+  .search__image {
+    width: 688px;
+    height: 360px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media screen and #{$mobile} {
+  .search__image {
+    width: 280px;
+    height: 147px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}

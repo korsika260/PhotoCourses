@@ -1,0 +1,48 @@
+.composition__item-rule {
+  margin: 0;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  color: $colorText;
+  max-width: 291px;
+  padding: 0 56px 0 0;
+  list-style: none;
+
+  &:last-child {
+    padding-right: 0;
+  }
+}
+
+@media screen and #{$tablet} {
+  .composition__item-rule {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    max-width: 800px;
+    padding-right: 0;
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media screen and #{$mobile} {
+  .composition__item-rule {
+    padding-bottom: 14px;
+    padding-top: 14px;
+    max-width: 278px;
+    padding-right: 0;
+    font-size: 14px;
+    line-height: 18px;
+    word-spacing: 5px;
+
+    &:last-child {
+      padding-bottom: 20px;
+      padding-top: 10px;
+    }
+  }
+}

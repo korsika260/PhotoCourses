@@ -1,0 +1,17 @@
+.camera__reviews-paragraph {
+  @include clear;
+  max-width: 526px;
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 43px;
+  line-height: 43px;
+  color: $colorTextInvert;
+}
+
+@media screen and #{$mobile} {
+  .camera__reviews-paragraph {
+    font-size: 24px;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,14 @@
+.composition__image {
+  @include clear;
+  width: 642px;
+  height: 685px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and #{$tablet} {
+  .composition__image {
+    display: none;
+  }
+}
