@@ -1,0 +1,13 @@
+.search__box {
+  max-width: 1440px;
+  @include clear;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and #{$tablet} {
+  .search__box {
+    flex-direction: column;
+  }
+}

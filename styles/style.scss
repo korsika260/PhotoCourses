@@ -6,6 +6,7 @@
 
 @import "modules/blocks/page/page";
 @import "modules/blocks/header/header";
+@import "modules/blocks/header/__box/header__box";
 @import "modules/blocks/header/__logo/header__logo";
 @import "modules/blocks/rotation/rotation";
 @import "modules/blocks/menu/menu";
@@ -16,7 +17,7 @@
 @import "modules/blocks/menu/__link/menu__link";
 @import "modules/blocks/menu/__button/menu__button";
 @import "modules/blocks/menu-tablet/menu-tablet";
-@import "modules/blocks/menu-tablet/__mobile/menu-tablet__mobile";
+
 @import "modules/blocks/menu-tablet/__logo-mobile/menu-tablet__logo-mobile";
 @import "modules/blocks/menu-tablet/__button-close/menu-tablet__button-close";
 @import "modules/blocks/menu-tablet/__list/menu-tablet__list";
@@ -25,6 +26,7 @@
 @import "modules/blocks/menu-tablet/__button-close/menu-tablet__button-close";
 @import "modules/blocks/main/main";
 @import "modules/blocks/course/course";
+@import "modules/blocks/course/__box/course__box";
 @import "modules/blocks/course/__column/course__column";
 @import "modules/blocks/course/__title/course__title";
 @import "modules/blocks/course/__image-tablet/course__image-tablet";
@@ -32,6 +34,7 @@
 @import "modules/blocks/course/__button/course__button";
 @import "modules/blocks/course/__image/course__image";
 @import "modules/blocks/composition/composition";
+@import "modules/blocks/composition/__box/composition__box";
 @import "modules/blocks/composition/__row/composition__row";
 @import "modules/blocks/composition/__column/composition__column";
 @import "modules/blocks/composition/__paragraph-text/composition__paragraph-text";
@@ -46,6 +49,7 @@
 @import "modules/blocks/composition/__item-rule/composition__item-rule";
 @import "modules/blocks/composition/__strong/composition__strong";
 @import "modules/blocks/camera/camera";
+@import "modules/blocks/camera/__box/camera__box";
 @import "modules/blocks/camera/__row/camera__row";
 @import "modules/blocks/camera/__column/camera__column";
 @import "modules/blocks/camera/__paragraph-text/camera__paragraph-text";
@@ -59,6 +63,7 @@
 @import "modules/blocks/camera/__reviews-name/camera__reviews-name";
 @import "modules/blocks/camera/__reviews-profile/camera__reviews-profile";
 @import "modules/blocks/search/search";
+@import "modules/blocks/search/__box/search__box";
 @import "modules/blocks/search/__column/search__column";
 @import "modules/blocks/search/__paragraph-text/search__paragraph-text";
 @import "modules/blocks/search/__title/search__title";
@@ -67,6 +72,7 @@
 @import "modules/blocks/search/__button/search__button";
 @import "modules/blocks/search/__place/search__place";
 @import "modules/blocks/footer/footer";
+@import "modules/blocks/footer/__box/footer__box";
 @import "modules/blocks/footer/__row/footer__row";
 @import "modules/blocks/footer/__arrow/footer__arrow";
 @import "modules/blocks/footer/__title/footer__title";
@@ -74,4 +80,21 @@
 @import "modules/blocks/footer/__form-item/footer__form-item";
 @import "modules/blocks/footer/__button/footer__button";
 @import "modules/blocks/footer/__copyright/footer__copyright";
+
+
+
+
+
+
+
+
+
+
+
+//@media screen and #{$mobile} {
+//  .header__box {
+//    @include clear;
+//    max-width: px;
+//  }
+//}
 

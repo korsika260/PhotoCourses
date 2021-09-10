@@ -1,7 +1,5 @@
 .search {
   @include clear;
-  display: flex;
-  flex-direction: row;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -16,7 +14,7 @@
 
 @media screen and #{$mobile} {
   .search {
-    padding-top: 20px;
+    padding-top: 18px;
     padding-bottom: 20px;
   }
 }
