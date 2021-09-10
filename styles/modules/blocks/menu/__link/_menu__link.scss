@@ -1,0 +1,14 @@
+.menu__link {
+  font-family: $fontRoboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #FBFBFB;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  font-weight: bold;
+}
