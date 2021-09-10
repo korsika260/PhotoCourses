@@ -2,8 +2,16 @@
 $fontInter: Inter, Arial, sans-serif;
 $fontRoboto: Roboto, Arial, sans-serif;
 
-// Цвета
-$colorBlock: #DF2626;
+// Цвета блоков
+$bgBlock: #DF2626;
+$bgDefault: #FFFFFF;
+$bgComposition: #FFCE00;
+$bgCamera: #000000;
+
+// Цвета текста
+$colorLink: #FBFBFB;
+$colorText: #000000;
+$colorTextInvert: #FFFFFF;
 
 // Media
 $tablet: '(max-width: 1079px)';

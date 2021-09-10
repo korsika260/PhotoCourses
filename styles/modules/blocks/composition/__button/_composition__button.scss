@@ -3,7 +3,7 @@
   margin-top: 170px;
   margin-left: 50px;
   margin-right: 470px;
-  background: #FFFFFF;
+  background: $bgDefault;
   border: 2px solid black;
   box-sizing: border-box;
   border-radius: 9999px;
@@ -15,7 +15,7 @@
   font-size: 18px;
   line-height: 28px;
   text-align: center;
-  color: #000000;
+  color: $colorText;
   text-decoration: none;
   cursor: pointer;
 

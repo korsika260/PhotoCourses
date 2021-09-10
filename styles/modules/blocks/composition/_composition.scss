@@ -4,7 +4,7 @@
   padding-bottom: 50px;
   display: flex;
   flex-direction: column;
-  background: #FFCE00;
+  background: $bgComposition;
 }
 
 @media screen and #{$tablet} {

@@ -7,7 +7,7 @@
   font-size: 18px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: $colorTextInvert;
 }
 
 @media screen and #{$tablet} {
